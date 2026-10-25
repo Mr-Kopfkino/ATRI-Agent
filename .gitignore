@@ -1,9 +1,13 @@
-# Source-sharing repository: local state, assets and models must remain private.
+# Source-sharing repository: local state, runtime assets and models remain excluded.
 /.runtime/
 /data/**
 !/data/.gitkeep
 /assets/**
 !/assets/.gitkeep
+# Explicitly shared character configuration; other game assets remain excluded.
+!/assets/derived/
+!/assets/derived/persona.json
+!/assets/derived/knowledge.json
 /models/**
 !/models/.gitkeep
 /training/**
