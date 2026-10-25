@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net9.0-windows</TargetFramework><UseWPF>true</UseWPF><AssemblyName>atri_agent</AssemblyName><ApplicationManifest>app.manifest</ApplicationManifest></PropertyGroup>
+ <ItemGroup><ProjectReference Include="../Atri.Core/Atri.Core.csproj" /></ItemGroup>
+</Project>
